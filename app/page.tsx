@@ -1,103 +1,68 @@
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="w-full h-screen flex relative">
+      <div className="h-screen w-15 border-r-1 border-gray-950 flex">
+        <div className="m-auto">
+          <img src="/icon/instagram.svg" className="mt-6 mb-6 w-7 h-7"/>
+          <img src="/icon/twitter.svg" className="mt-6 mb-6 w-7 h-7"/>
+          <img src="/icon/youtube.svg" className="mt-6 mb-6 w-7 h-7"/>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
+      <div className="w-[60%] h-full flex">
+      <div className="z-10 m-auto 2xl:ml-[15%]">
+        <div className="ml-4">
+          <div className="flex relative">
+            <span className="text-9xl font-bold">KIGYOKUSAI</span><br/>
+            <span className="absolute mt-2 ml-2 text-9xl font-bold title-text">KIGYOKUSAI</span><br/>
+          </div>
+          <span className="text-9xl text-blue-500 font-bold">2025</span>
+          <div className="w-120 h-20 bg-blue-500 flex">
+            <div className="flex m-auto">
+              <span className="text-white font-bold text-7xl">09/20</span>
+              <ArrowRight className="text-white w-10 h-18 mr-3 ml-3" />
+              <span className="text-white font-bold text-7xl">09/21</span>
+            </div>
+          </div>
+          <div className="mt-12 w-300">
+            <div className="flex">
+              <span className="text-7xl">News</span><br/>
+              <div className="w-40 border-t-[1px] mt-10 mr-5 ml-5"></div>
+              <span className="font-semibold mt-8">お知らせ</span>
+            </div>
+            <div className="flex">
+              <span className="text-7xl">About</span><br/>
+              <div className="w-38 border-t-1 mt-10 mr-5 ml-5"></div>
+              <span className="font-semibold mt-8">文化祭について</span>
+            </div>
+            <div className="flex">
+              <span className="text-7xl">Contents</span><br/>
+              <div className="w-13 border-t-1 mt-10 mr-5 ml-5"></div>
+              <span className="font-semibold mt-8">コンテンツ</span>
+            </div>
+            <div className="flex">
+              <span className="text-7xl">Access</span><br/>
+              <div className="w-28 border-t-1 mt-10 mr-5 ml-5"></div>
+              <span className="font-semibold mt-8">アクセス</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div className="absolute right-0 bottom-0 w-[47%] h-[93%] rounded-tl-4xl z-0">
+        <div className="w-8 h-40 bg-white absolute bottom-15 right-0 z-100 flex">
+          <div className="m-auto">
+            <div className="m-auto [writing-mode:vertical-rl]">
+              <span>SCROLL</span>
+            </div>
+            <img src="/icon/move-down.svg" className="m-auto h-5 mt-2"/>
+          </div>
+        </div>
+        <img src="/icon/pic.png" className="w-full h-full object-cover rounded-tl-4xl relative"/>
+
+      </div>
     </div>
   );
 }
