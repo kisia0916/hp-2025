@@ -26,27 +26,27 @@ export default function Home() {
               <span className="text-white font-bold text-7xl">09/21</span>
             </div>
           </div>
-          <div className="mt-12 w-300">
-            <div className="flex">
-              <span className="text-7xl">News</span><br/>
-              <div className="w-40 border-t-[1px] mt-10 mr-5 ml-5"></div>
-              <span className="font-semibold mt-8">お知らせ</span>
-            </div>
-            <div className="flex">
-              <span className="text-7xl">About</span><br/>
-              <div className="w-38 border-t-1 mt-10 mr-5 ml-5"></div>
-              <span className="font-semibold mt-8">文化祭について</span>
-            </div>
-            <div className="flex">
-              <span className="text-7xl">Contents</span><br/>
-              <div className="w-13 border-t-1 mt-10 mr-5 ml-5"></div>
-              <span className="font-semibold mt-8">コンテンツ</span>
-            </div>
-            <div className="flex">
-              <span className="text-7xl">Access</span><br/>
-              <div className="w-28 border-t-1 mt-10 mr-5 ml-5"></div>
-              <span className="font-semibold mt-8">アクセス</span>
-            </div>
+          <div className="mt-25 w-300">
+          <div className="flex">
+            <span className="text-7xl font-bold">News</span><br/>
+            <div className="w-40 border-t-[1px] mt-10 mr-5 ml-5"></div>
+            <span className="font-semibold mt-7">お知らせ</span>
+          </div>
+          <div className="flex">
+            <span className="text-7xl font-bold">About</span><br/>
+            <div className="w-35 border-t-1 mt-10 mr-5 ml-5"></div>
+            <span className="font-semibold mt-7">文化祭について</span>
+          </div>
+          <div className="flex">
+            <span className="text-7xl font-bold">Contents</span><br/>
+            <div className="w-9 border-t-1 mt-10 mr-5 ml-5"></div>
+            <span className="font-semibold mt-7">コンテンツ</span>
+          </div>
+          <div className="flex">
+            <span className="text-7xl font-bold">Access</span><br/>
+            <div className="w-25 border-t-1 mt-10 mr-5 ml-5"></div>
+            <span className="font-semibold mt-8">アクセス</span>
+          </div>
           </div>
         </div>
       </div>
