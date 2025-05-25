@@ -22,8 +22,14 @@ export default function Home() {
           <div className="w-120 h-20 bg-blue-500 flex">
             <div className="flex m-auto">
               <span className="text-white font-bold text-7xl">09/20</span>
-              <ArrowRight className="text-white w-10 h-18 mr-3 ml-3" />
+                <div className="m-auto [writing-mode:vertical-rl]">
+                  <span className="text-white text-2xl font-bold">SAT</span>
+                </div>
+              <ArrowRight className="text-white w-10 h-18 mr-2 ml-2" />
               <span className="text-white font-bold text-7xl">09/21</span>
+                <div className="m-auto [writing-mode:vertical-rl]">
+                  <span className="text-white text-2xl font-bold">SAT</span>
+                </div>
             </div>
           </div>
           <div className="mt-25 w-300">
